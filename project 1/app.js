@@ -1,17 +1,17 @@
-const sun = document.querySelector('.closed');
-const moon = document.querySelector('.open');
+const snowman = document.querySelector('.closed');
+const snow = document.querySelector('.open');
 
 // Add event listener
-sun.addEventListener('click', () => {
-  if (moon.classList.contains('open')) {
-    moon.classList.add('active');
-    sun.classList.remove('active');
+snowman.addEventListener('click', () => {
+  if (snow.classList.contains('open')) {
+    snow.classList.add('active');
+    snowman.classList.remove('active');
   }
 });
 
-moon.addEventListener('click', () => {
-  if (sun.classList.contains('closed')) {
-    sun.classList.add('active');
-    moon.classList.remove('active');
+snow.addEventListener('click', () => {
+  if (snowman.classList.contains('closed')) {
+    snowman.classList.add('active');
+    snow.classList.remove('active');
   }
 });
