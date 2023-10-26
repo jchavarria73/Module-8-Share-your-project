@@ -1,13 +1,13 @@
-const circle = document.querySelector('#circle');
+const square = document.querySelector('#square');
 
-circle.addEventListener('mouseenter', () => {
-  if (!circle.classList.contains('hover')) {
-    circle.classList.add('hover');  
+square.addEventListener('mouseenter', () => {
+  if (!square.classList.contains('hover')) {
+    square.classList.add('hover');  
   } 
 });
 
-circle.addEventListener('mouseleave', () => {
-  if (circle.classList.contains('hover')) {
-    circle.classList.remove('hover');
+square.addEventListener('mouseleave', () => {
+  if (square.classList.contains('hover')) {
+    square.classList.remove('hover');
   }
 });
