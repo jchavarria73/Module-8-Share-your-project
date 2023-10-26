@@ -6,17 +6,17 @@
               'Lucida Sans', Arial, sans-serif;
 }
 
-h1 {
-  color: #fff; 
-}
-
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #ffbd00;
+  background: #d52b1e;
+}
+
+h1 {
+  color: #fff; 
 }
 
 #info {
@@ -32,4 +32,5 @@ body {
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
+  border: 10px solid #ffbd00;
 }
