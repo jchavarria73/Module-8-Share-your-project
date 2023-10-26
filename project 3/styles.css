@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: lightblue;
+  background: lightgreen;
 }
 
 #square {
@@ -21,7 +21,7 @@ body {
   align-items: center;
   height: 200px;
   width: 200px;
-  background: blue;
+  background: green;
   font-size: 1.5rem;
   color: #fff;
   cursor: pointer;
