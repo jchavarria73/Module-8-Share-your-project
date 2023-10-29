@@ -36,7 +36,7 @@ let data = [
 const info = document.querySelector('#info');
 
 let details = data.map(function(item) {
-  return '<div>' + item.name + ' ' + 'cost ' + item.price + '</div>';
+  return '<div>' + item.name + ': ' + item.price + '</div>';
 });
 
 info.innerHTML = details.join('\n');
