@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: lightgreen;
+  background: lightblue;
 }
 
 #square {
@@ -21,14 +21,14 @@ body {
   align-items: center;
   height: 200px;
   width: 200px;
-  background: green;
+  background: lightskyblue;
   font-size: 1.5rem;
-  color: #fff;
+  color: blue;
   cursor: pointer;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
-  border: 14px solid red;
+  transition: all 6s ease;
+  border: 14px solid blue;
 }
 
 .hover {
-  transform: scale(2);
+  transform: rotate(3600deg);
 }
