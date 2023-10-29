@@ -1,17 +1,20 @@
-const snowman = document.querySelector('.closed');
-const snow = document.querySelector('.open');
+const snowman = document.querySelectorAll('.emoji.closed');
+const snow = document.querySelectorAll('.emoji.open');
 
-// Add event listener
-snowman.addEventListener('click', () => {
-  if (snow.classList.contains('open')) {
-    snow.classList.add('active');
-    snowman.classList.remove('active');
+function toggleEmoji(emoji) {
+  if (emoji.classList.contains('closed')) {
+    snowman.forEach((face) => {
+      face.classList.remove('active');
+    });
+    snow.forEach((face) => {
+      face.classList.add('active');
+    });
+  } else if (emoji.classList.contains('open')) {
+    snow.forEach((face) => {
+      face.classList.remove('active');
+    });
+    snowman.forEach((face) => {
+      face.classList.add('active');
+    });
   }
-});
-
-snow.addEventListener('click', () => {
-  if (snowman.classList.contains('closed')) {
-    snowman.classList.add('active');
-    snow.classList.remove('active');
-  }
-});
+}

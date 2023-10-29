@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: lightblue;
+  background-color: lightblue;
 }
 
 .emoji {
@@ -29,4 +29,15 @@ body {
 
 .active {
   display: block;
+}
+
+p.snowman-text {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 24px; 
+  color: blue; 
+  text-align: center; 
+  padding: 10px; 
+  border: 2px solid blue; 
+  border-radius: 10px; 
+  background-color: lightskyblue; 
 }

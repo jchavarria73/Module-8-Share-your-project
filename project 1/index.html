@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 8 - Project 1</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<title>Module 8 - Project 1</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" >
   </head>
   <body>
-    <div class="emoji closed active">⛄</div>
-    <div class="emoji open">☃️</div>
-    <script src="app.js"></script> 
-  </body>
+	<div class="emoji closed active" onclick="toggleEmoji(this)">⛄</div>
+	<div class="emoji closed active"><p class="snowman-text">Click Me</p></div>
+	<div class="emoji open"><p class="snowman-text">Let It Snow</p></div>
+	<div class="emoji open" onclick="toggleEmoji(this)">☃️</div>
+	<script src="app.js"></script>
+	</body>
 </html>
