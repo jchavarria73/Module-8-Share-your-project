@@ -12,7 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: lightblue;
 }
 
 #square {
@@ -21,12 +20,12 @@ body {
   align-items: center;
   height: 200px;
   width: 200px;
-  background: lightskyblue;
-  font-size: 1.5rem;
-  color: blue;
+  background: blue;
+  font-size: 3rem;
+  color: white;
   cursor: pointer;
   transition: all 6s ease;
-  border: 14px solid blue;
+  border: 14px solid red;
 }
 
 .hover {
